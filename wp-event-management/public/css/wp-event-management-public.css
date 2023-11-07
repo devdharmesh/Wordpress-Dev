@@ -1,0 +1,86 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.event-form .event-form-wrapper .event-group label:not(.event-check-label) {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.event-form .event-form-wrapper .event-group .event-form-input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+.event-form .event-form-wrapper .event-group .event-form-select {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+.event-form .event-form-wrapper .event-group:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.event-form .event-form-wrapper .event-check-input {
+    margin-right: 0;
+    vertical-align: -2px;
+    width: 1em;
+    height: 1em;
+    box-shadow: none;
+    outline: none;
+}
+
+.event-form .event-form-wrapper .event-form-submit {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.event-form .event-form-wrapper .event-form-submit:disabled {
+    opacity: 0.5;
+}
+
+.event-form .event-form-wrapper .event-form-submit:hover {
+    background: #005177;
+}
+
+.event-form .event-form-wrapper .event-form-message {
+    margin-bottom: 15px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.event-form .event-form-wrapper .event-form-message.alert-danger {
+    background: #FCCFCF;
+    color: #8F0A0A;
+    font-weight: 400;
+    border: 1px solid #8F0A0A;
+}
+
+.event-form .event-form-wrapper .event-form-message.alert-success {
+    background: #E1F9D2;
+    color: #2A590D;
+    font-weight: 400;
+    border: 1px solid #2A590D;
+}
+
+.event-form .event-form-wrapper .event-form-message:empty {
+    display: none;
+}
+
